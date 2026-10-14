@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08283a">
+<meta name="description" content="Discover Sri Lanka with Sri Lanka Trails — airport transfers, wedding hire, taxi services, customized local trips, ancient cities, waterfalls, beaches and island journeys.">
+<title>Sri Lanka Trails | Explore • Discover • Experience</title>
+<style>
+:root{--navy:#08283a;--navy2:#041b29;--gold:#ffc747;--cream:#fffaf0;--ink:#152c3b;--muted:#647481;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:#fff}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}
+header{position:sticky;top:0;z-index:20;background:rgba(5,29,43,.97);color:#fff;box-shadow:0 3px 18px #00121c30}.nav{max-width:1200px;margin:auto;min-height:76px;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-family:Georgia,serif;font-size:25px;font-style:italic;font-weight:bold;white-space:nowrap}.brand-mark{font-size:31px;color:var(--gold)}.brand small{display:block;font:10px Arial,sans-serif;letter-spacing:2px;font-style:normal;color:#d5e0e7;margin-top:3px}.navlinks{display:flex;gap:25px;align-items:center;font-size:14px}.navlinks a:hover{color:var(--gold)}.hotline{font-weight:700;white-space:nowrap}.hotline span{display:block;font-size:11px;color:#d8e3e9;font-weight:400}.hotline strong{font-size:17px}.menu-btn{display:none;background:none;color:white;border:1px solid #ffffff55;border-radius:8px;padding:8px 10px}
+.hero{min-height:520px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,rgba(2,24,34,.88),rgba(2,24,34,.40) 53%,rgba(2,24,34,.08)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Nine_Arches_Bridge_in_Ella.jpg?width=2000') center 48%/cover no-repeat}.hero-inner{max-width:1200px;width:100%;margin:auto;padding:72px 24px}.eyebrow{text-transform:uppercase;letter-spacing:4px;font-size:12px;font-weight:800;color:var(--gold)}h1{font-family:Georgia,serif;font-size:clamp(42px,6vw,72px);line-height:1.04;max-width:700px;margin:17px 0}.hero-script{font-family:Georgia,serif;font-style:italic;color:var(--gold);font-size:clamp(24px,3vw,38px);margin:0 0 18px}.hero p{max-width:510px;line-height:1.75;color:#f1f4f5}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--gold);color:#152b36;border:0;border-radius:30px;padding:14px 23px;font-weight:800;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.04)}.btn-outline{background:transparent;border:1px solid #fff;color:#fff;margin-left:8px}
+.features{display:grid;grid-template-columns:repeat(5,1fr);gap:0;max-width:1200px;margin:auto;padding:28px 18px}.feature{text-align:center;padding:10px 18px;border-right:1px solid #d9e0e3}.feature:last-child{border:0}.feature .icon{font-size:28px;color:#12344a}.feature h3{font-size:15px;margin:10px 0 6px}.feature p{font-size:12px;line-height:1.6;color:var(--muted);margin:0}
+section{scroll-margin-top:85px}.section{max-width:1200px;margin:auto;padding:65px 24px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:25px}.section-head h2{font-family:Georgia,serif;font-size:clamp(29px,4vw,42px);margin:8px 0 0}.section-head p{color:var(--muted);margin:0;line-height:1.6}.kicker{font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:800;color:#a86f00}.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}.filter{border:1px solid #d8e0e3;background:#fff;border-radius:22px;padding:9px 15px;cursor:pointer;color:var(--ink);font-size:13px}.filter.active,.filter:hover{background:var(--navy);color:white;border-color:var(--navy)}.search{border:1px solid #d5dfe3;border-radius:24px;padding:11px 15px;min-width:210px;outline-color:var(--gold)}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}.place-card{border-radius:15px;overflow:hidden;background:white;box-shadow:0 5px 22px #08283a12;border:1px solid #e9eef0;transition:transform .2s,box-shadow .2s}.place-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px #08283a20}.place-card img{width:100%;height:180px;object-fit:cover;display:block;background:#e7eef0}.place-info{padding:15px}.place-info h3{font-family:Georgia,serif;font-size:19px;margin:0 0 7px}.place-info p{font-size:13px;line-height:1.55;color:var(--muted);margin:0 0 13px}.tag{display:inline-block;background:#fff2cf;color:#755000;font-size:10px;font-weight:800;letter-spacing:.6px;border-radius:12px;padding:5px 8px;margin-bottom:9px}.learn{font-size:13px;font-weight:800;color:#0a5972}.empty{display:none;padding:24px;text-align:center;color:var(--muted)}
+.trip-band{background:var(--cream)}.trip-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.trip-photo{width:100%;height:390px;object-fit:cover;border-radius:18px}.trip-list{list-style:none;padding:0;margin:20px 0}.trip-list li{padding:13px 0;border-bottom:1px solid #e7dfcc;line-height:1.5}.trip-list b{display:block}.trip-list span{font-size:13px;color:var(--muted)}
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center}.about-grid h2{font-family:Georgia,serif;font-size:clamp(30px,4vw,43px);margin:9px 0 15px}.about-grid p{line-height:1.8;color:var(--muted)}.about-photo{width:100%;height:350px;object-fit:cover;border-radius:18px}.stat-row{display:flex;gap:25px;flex-wrap:wrap;margin-top:22px}.stat strong{display:block;color:#a86f00;font-size:24px}.stat span{font-size:12px;color:var(--muted)}
+.contact{background:linear-gradient(100deg,rgba(4,27,41,.93),rgba(4,27,41,.73)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Mirissa_Beach.jpg?width=1800') center/cover;color:#fff}.contact-inner{max-width:1200px;margin:auto;padding:65px 24px;display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.contact h2{font:clamp(31px,4vw,45px) Georgia,serif;margin:10px 0}.contact p{color:#d7e1e6;line-height:1.7}.phone-big{font-size:clamp(25px,3vw,34px);font-weight:800;color:var(--gold);display:inline-block;margin:8px 0 20px}.contact-form{background:#fff;color:var(--ink);padding:24px;border-radius:16px;display:grid;gap:12px}.contact-form h3{margin:0 0 5px;font-family:Georgia,serif;font-size:23px}.contact-form input,.contact-form select,.contact-form textarea{width:100%;border:1px solid #d8e0e3;border-radius:9px;padding:12px;background:#fff}.contact-form textarea{min-height:85px;resize:vertical}.form-note{font-size:11px;color:var(--muted);line-height:1.5}
+footer{background:var(--navy2);color:#d7e1e6;padding:25px 24px}.footer-inner{max-width:1200px;margin:auto;display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap;font-size:12px}.footer-brand{font:italic bold 21px Georgia,serif;color:#fff}.footer-brand span{color:var(--gold)}.backtop{position:fixed;right:18px;bottom:18px;border:0;background:var(--gold);color:var(--navy);width:44px;height:44px;border-radius:50%;font-size:21px;cursor:pointer;box-shadow:0 4px 15px #0002}
+@media(max-width:900px){.navlinks{gap:13px}.hotline{display:none}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.features{grid-template-columns:repeat(3,1fr)}.feature:nth-child(3){border-right:0}.trip-grid,.about-grid,.contact-inner{grid-template-columns:1fr}.trip-photo{height:300px}}
+@media(max-width:650px){.nav{min-height:67px;padding:10px 16px}.brand{font-size:20px}.brand-mark{font-size:25px}.menu-btn{display:block}.navlinks{display:none;position:absolute;top:66px;left:0;right:0;background:var(--navy2);padding:18px 24px;flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.hero{min-height:570px;background-position:58% center}.hero-inner{padding:55px 20px}.hero p{font-size:14px}.btn-outline{margin:10px 0 0}.features{grid-template-columns:repeat(2,1fr);padding:18px 10px}.feature{border-right:0;border-bottom:1px solid #e3e8ea;padding:15px 10px}.feature:last-child{grid-column:1/-1}.section{padding:48px 17px}.section-head{align-items:flex-start;flex-direction:column}.search{width:100%}.cards{gap:12px}.place-card img{height:135px}.place-info{padding:11px}.place-info h3{font-size:16px}.place-info p{font-size:12px}.tag{font-size:9px}.contact-inner{padding:48px 17px}.footer-inner{align-items:flex-start;flex-direction:column}}
+
+.services-wrap{background:#f4f8f9}
+.service-tabs{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:28px}
+.service-panel{background:#fff;border:1px solid #e2e9ec;border-radius:18px;overflow:hidden;box-shadow:0 7px 25px #08283a0d}
+.service-panel img{width:100%;height:235px;object-fit:cover;display:block}
+.service-copy{padding:24px}.service-copy h3{font:28px Georgia,serif;margin:0 0 10px}.service-copy p{color:var(--muted);line-height:1.7}.vehicle-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin-top:18px}
+.vehicle{border:1px solid #e3e9eb;border-radius:12px;overflow:hidden;background:#fff}.vehicle img{width:100%;height:135px;object-fit:cover;display:block}.vehicle div{padding:12px}.vehicle h4{margin:0 0 5px;font-size:15px}.vehicle p{font-size:12px;margin:0;color:var(--muted);line-height:1.5}
+.place-card{cursor:pointer}.place-card .learn{display:inline-block;border:0;background:none;padding:0;cursor:pointer}
+.modal-backdrop{position:fixed;inset:0;background:#031722c9;z-index:100;display:none;align-items:center;justify-content:center;padding:20px}.modal-backdrop.show{display:flex}.destination-modal{background:#fff;border-radius:18px;max-width:760px;width:100%;max-height:90vh;overflow:auto;position:relative}.destination-modal img{width:100%;height:320px;object-fit:cover;display:block}.modal-body{padding:24px}.modal-body h2{font:34px Georgia,serif;margin:8px 0}.modal-body p{line-height:1.8;color:#536571}.modal-close{position:absolute;right:14px;top:14px;border:0;background:#fff;color:#102c3b;width:40px;height:40px;border-radius:50%;font-size:25px;cursor:pointer;box-shadow:0 2px 10px #0002}.place-card:focus{outline:3px solid var(--gold);outline-offset:3px}
+@media(max-width:800px){.service-tabs{grid-template-columns:1fr}.vehicle-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.service-panel img{height:200px}.destination-modal img{height:230px}}
+@media(max-width:480px){.vehicle-grid{grid-template-columns:1fr 1fr}.vehicle img{height:110px}.service-copy{padding:17px}}
+
+
+.extra-services{background:#fff}.extra-service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:28px}
+.extra-service-card{border:1px solid #e4eaec;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 8px 24px #092d4010}
+.extra-service-card img{width:100%;height:190px;object-fit:cover;display:block}
+.extra-service-card .extra-copy{padding:19px}.extra-copy h3{font:24px Georgia,serif;margin:0 0 8px}.extra-copy p{color:var(--muted);font-size:14px;line-height:1.7}.extra-copy ul{padding-left:18px;color:var(--muted);font-size:13px;line-height:1.9}
+.booking-panel{background:#f3f7f8;border-radius:18px;padding:26px;margin-top:32px;display:grid;grid-template-columns:1fr 1.2fr;gap:25px;align-items:center}
+.booking-panel h3{font:29px Georgia,serif;margin:8px 0}.booking-panel p{color:var(--muted);line-height:1.7}.booking-form{display:grid;grid-template-columns:1fr 1fr;gap:11px}.booking-form input,.booking-form select,.booking-form textarea{min-width:0;width:100%;padding:12px;border:1px solid #d4dfe3;border-radius:9px;background:white}.booking-form textarea{grid-column:1/-1;min-height:80px}.booking-form button{grid-column:1/-1}
+@media(max-width:850px){.extra-service-grid{grid-template-columns:1fr 1fr}.booking-panel{grid-template-columns:1fr}}
+@media(max-width:560px){.extra-service-grid{grid-template-columns:1fr}.extra-service-card img{height:210px}.booking-form{grid-template-columns:1fr}.booking-form textarea,.booking-form button{grid-column:auto}}
+
+
+/* Sri Lanka Trails — interaction and animation upgrade */
+:root{--gold:#ffc747;--navy:#08283a;--navy2:#041b29;--ease:cubic-bezier(.2,.75,.25,1)}
+html{scroll-behavior:smooth;scroll-padding-top:92px}
+body{overflow-x:hidden}
+header{backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.brand{transition:transform .25s var(--ease)}.brand:hover{transform:translateY(-2px)}
+.navlinks a{position:relative;padding:8px 0;transition:color .2s ease}
+.navlinks a:after{content:"";position:absolute;left:0;right:100%;bottom:1px;height:2px;background:var(--gold);transition:right .25s var(--ease)}
+.navlinks a:hover:after,.navlinks a:focus-visible:after{right:0}
+.btn,.filter,.menu-btn,.backtop{transition:transform .22s var(--ease),box-shadow .22s ease,background .22s ease,filter .22s ease}
+.btn:hover{transform:translateY(-3px);box-shadow:0 9px 24px #08283a24}.btn:active,.filter:active{transform:scale(.98)}
+.hero{position:relative;isolation:isolate;background-position:center;background-size:cover;animation:heroReveal .8s ease both}
+.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(115deg,#031b29aa,transparent 68%);pointer-events:none}
+.hero-inner>*{animation:riseIn .7s var(--ease) both}.hero-inner>*:nth-child(2){animation-delay:.08s}.hero-inner>*:nth-child(3){animation-delay:.16s}.hero-inner>*:nth-child(4){animation-delay:.24s}.hero-inner>*:nth-child(5){animation-delay:.32s}
+.place-card,.service-panel,.extra-service-card,.vehicle{transition:transform .28s var(--ease),box-shadow .28s var(--ease),border-color .28s ease}
+.place-card:hover,.service-panel:hover,.extra-service-card:hover{transform:translateY(-6px);box-shadow:0 18px 42px #08283a1b;border-color:#d4e0e5}
+.place-card img,.service-panel>img,.extra-service-card>img,.vehicle img{transition:transform .55s var(--ease),filter .35s ease}
+.place-card:hover img,.service-panel:hover>img,.extra-service-card:hover>img,.vehicle:hover img{transform:scale(1.035);filter:saturate(1.08)}
+.place-card,.service-panel,.extra-service-card{overflow:hidden}
+.vehicle{cursor:pointer}.vehicle:focus-visible{outline:3px solid var(--gold);outline-offset:3px}.vehicle.selected{border:2px solid #c78b00;box-shadow:0 0 0 4px #ffc74733}
+.filter:focus-visible,.btn:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid #ffc747;outline-offset:3px}
+.modal-backdrop{backdrop-filter:blur(5px)}.modal-backdrop.show .destination-modal{animation:modalIn .25s var(--ease) both}
+.contact-form,.booking-panel{box-shadow:0 14px 42px #08283a0d}
+.form-note{margin-top:2px}.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#08283a;color:#fff;border:1px solid #ffffff30;padding:13px 18px;border-radius:12px;box-shadow:0 10px 35px #0003;z-index:150;max-width:min(92vw,520px);font-size:14px;transition:opacity .25s ease,transform .25s var(--ease)}.toast.show{opacity:1;transform:translate(-50%,0)}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s var(--ease)}.reveal.revealed{opacity:1;transform:translateY(0)}
+img{color:#667985}img.image-fallback{object-fit:cover;background:linear-gradient(135deg,#dce9eb,#f4f8f9)}
+@keyframes riseIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes heroReveal{from{filter:saturate(.7);background-position:center 55%}to{filter:saturate(1);background-position:center 48%}}
+@keyframes modalIn{from{opacity:0;transform:translateY(14px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+@media(max-width:650px){.navlinks{box-shadow:0 14px 20px #00121c30}.navlinks a{width:100%;padding:7px 0}.hero{animation:none}.hero-inner>*{animation:none}}
+
+
+/* Dedicated wedding hire section */
+.wedding-section{background:linear-gradient(135deg,#fff9ed,#fff 55%,#f8f4ec);border-top:1px solid #f0e5d2;border-bottom:1px solid #f0e5d2}
+.wedding-hero{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+.wedding-photo-wrap{position:relative;min-height:390px;border-radius:20px;overflow:hidden;box-shadow:0 18px 42px #39250d20;background:#f0e8dc}
+.wedding-photo-wrap img{width:100%;height:100%;min-height:390px;object-fit:cover;display:block}
+.wedding-stamp{position:absolute;left:18px;bottom:18px;background:#fffaf0ee;color:#553a18;padding:12px 16px;border-radius:12px;font:italic 18px Georgia,serif;box-shadow:0 6px 20px #0002}
+.wedding-content h2{font:clamp(32px,4vw,48px) Georgia,serif;line-height:1.1;margin:10px 0 15px;color:#34251b}
+.wedding-content p{line-height:1.8;color:#6d6257}
+.wedding-perks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0}
+.wedding-perk{background:#fff;border:1px solid #eee2d0;border-radius:12px;padding:14px;font-size:13px;line-height:1.5;color:#4c4035}
+.wedding-perk strong{display:block;color:#4b3219;font-size:14px;margin-bottom:4px}
+.wedding-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.wedding-call{font-weight:800;color:#6b4b18;padding:12px 6px}
+@media(max-width:800px){.wedding-hero{grid-template-columns:1fr}.wedding-photo-wrap,.wedding-photo-wrap img{min-height:280px;height:300px}}
+@media(max-width:560px){.wedding-perks{grid-template-columns:1fr}.wedding-photo-wrap,.wedding-photo-wrap img{height:240px;min-height:240px}}
+
+
+/* Dedicated airport transfers and customer experience sections */
+.airport-section{background:linear-gradient(135deg,#eef7fa,#fff 60%,#f5fafb);border-top:1px solid #e1edf0;border-bottom:1px solid #e1edf0}
+.airport-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+.airport-photo{width:100%;height:370px;object-fit:cover;border-radius:20px;box-shadow:0 16px 40px #08283a18;background:#e2edf1}
+.airport-copy h2{font:clamp(31px,4vw,46px) Georgia,serif;line-height:1.12;margin:10px 0 14px}
+.airport-copy p{color:var(--muted);line-height:1.8}
+.airport-points{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.airport-point{padding:14px;border:1px solid #dce8ec;background:#fff;border-radius:12px;font-size:13px;line-height:1.55}
+.airport-point strong{display:block;margin-bottom:5px;color:var(--navy)}
+.reviews-section{background:#fffaf0;border-top:1px solid #f0e5d2}
+.reviews-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:30px;align-items:start}
+.review-intro,.review-form{background:#fff;border:1px solid #ece4d6;border-radius:18px;padding:25px;box-shadow:0 8px 26px #08283a0b}
+.review-intro h2{font:clamp(30px,4vw,42px) Georgia,serif;margin:9px 0 12px}
+.review-intro p,.review-note{color:var(--muted);line-height:1.7}
+.rating-picker{display:flex;gap:7px;margin:6px 0 16px}
+.rating-star{border:0;background:transparent;color:#c8cdd0;font-size:34px;padding:0 2px;cursor:pointer;line-height:1}
+.rating-star.active,.rating-star:hover{color:#f2b600}
+.review-form{display:grid;gap:12px}
+.review-form input,.review-form textarea{width:100%;border:1px solid #d8e0e3;border-radius:9px;padding:12px;background:#fff}
+.review-form textarea{min-height:115px;resize:vertical}
+.review-note{font-size:12px;margin:0}
+@media(max-width:800px){.airport-grid,.reviews-layout{grid-template-columns:1fr}.airport-photo{height:280px}}
+@media(max-width:560px){.airport-points{grid-template-columns:1fr}.rating-star{font-size:31px}}
+
+</style>
+</head>
+<body>
+<header>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#home"><span class="brand-mark">⛰</span><span>Sri Lanka Trails<small>EXPLORE • DISCOVER • EXPERIENCE</small></span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰ Menu</button>
+    <div class="navlinks" id="navlinks">
+      <a href="#home">Home</a><a href="#destinations">Destinations</a><a href="#local-trips">Local Trips</a><a href="#services">Taxi & Tours</a><a href="#airport-transfers">Airport Hire</a><a href="#wedding-hire">Wedding Hire</a><a href="#reviews">Rate Us</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </div>
+    <a class="hotline" href="tel:+94777249967"><span>☎ Hotline</span><strong>077 724 9967</strong></a>
+  </nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="eyebrow">Sri Lanka • Local Trips • Taxi Service</div>
+    <h1>Unforgettable journeys.<br>Beautiful memories.</h1>
+    <div class="hero-script">Across the Pearl of the Indian Ocean</div>
+    <p>From ancient kingdoms and sacred temples to misty mountains, magical waterfalls and golden beaches — discover the island your way.</p>
+    <a class="btn" href="#destinations">Explore destinations <span>→</span></a>
+    <a class="btn btn-outline" href="#contact">Plan a local trip</a>
+  </div>
+</section>
+<section aria-label="Our travel features">
+  <div class="features">
+    <div class="feature"><div class="icon">✧</div><h3>Customized Trips</h3><p>Journeys planned around your interests.</p></div>
+    <div class="feature"><div class="icon">🚙</div><h3>Comfortable Travel</h3><p>Make your island journey relaxing.</p></div>
+    <div class="feature"><div class="icon">⌖</div><h3>Local Experiences</h3><p>Find culture, food and hidden gems.</p></div>
+    <div class="feature"><div class="icon">♧</div><h3>Nature & Waterfalls</h3><p>Mountains, forests and refreshing views.</p></div>
+    <div class="feature"><div class="icon">♡</div><h3>Memorable Moments</h3><p>Discover places worth remembering.</p></div>
+  </div>
+</section>
+<section id="destinations">
+  <div class="section">
+    <div class="section-head">
+      <div><div class="kicker">The island awaits</div><h2>Explore our most-loved places</h2><p>Ancient cities, scenic escapes, waterfalls and coastal gems.</p></div>
+      <input class="search" id="searchInput" type="search" placeholder="Search destinations…" aria-label="Search destinations">
+    </div>
+    <div class="filters" aria-label="Filter destinations">
+      <button class="filter active" data-filter="all">All places</button><button class="filter" data-filter="heritage">Ancient & Heritage</button><button class="filter" data-filter="nature">Nature & Waterfalls</button><button class="filter" data-filter="beach">Beaches</button><button class="filter" data-filter="wildlife">Wildlife</button><button class="filter" data-filter="hill">Hill Country</button>
+    </div>
+    <div class="cards" id="destinationCards">
+      <article class="place-card" data-category="heritage" data-name="sigiriya rock fortress ancient city"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1588598198321-9735fd5f9b9b?auto=format&fit=crop&w=700&q=80" alt="Rock fortress rising above green landscape"><div class="place-info"><span class="tag">ANCIENT WONDER</span><h3>Sigiriya</h3><p>Explore the legendary rock fortress and its remarkable history.</p><a class="learn" href="#contact" data-place="Sigiriya">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="heritage" data-name="kandy temple tooth culture"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=85" alt="Traditional temple architecture"><div class="place-info"><span class="tag">CULTURE & HERITAGE</span><h3>Kandy</h3><p>Visit the sacred Temple of the Tooth and enjoy the hill-country city.</p><a class="learn" href="#contact" data-place="Kandy">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="heritage beach" data-name="galle fort lighthouse coast"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1586611292717-f828b167408c?auto=format&fit=crop&w=700&q=80" alt="Historic coastal fort and ocean"><div class="place-info"><span class="tag">COASTAL HISTORY</span><h3>Galle Fort</h3><p>Walk historic streets, see the lighthouse and enjoy ocean views.</p><a class="learn" href="#contact" data-place="Galle Fort">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="hill nature" data-name="ella nine arch bridge mountains train"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=700&q=80" alt="Green mountain scenery"><div class="place-info"><span class="tag">HILL COUNTRY</span><h3>Ella</h3><p>Mountain viewpoints, tea country and the famous Nine Arch Bridge.</p><a class="learn" href="#contact" data-place="Ella">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="hill nature" data-name="nuwara eliya lake tea gardens"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85" alt="Lush green highlands"><div class="place-info"><span class="tag">LITTLE ENGLAND</span><h3>Nuwara Eliya</h3><p>Cool weather, tea estates, gardens and peaceful lake views.</p><a class="learn" href="#contact" data-place="Nuwara Eliya">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="nature" data-name="bambarakanda falls waterfall mountains"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=700&q=80" alt="Waterfall cascading through a green forest"><div class="place-info"><span class="tag">WATERFALL</span><h3>Bambarakanda Falls</h3><p>Admire Sri Lanka’s tallest waterfall amid dramatic green scenery.</p><a class="learn" href="#contact" data-place="Bambarakanda Falls">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="nature hill" data-name="diyaluma falls waterfall pool"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=80" alt="Sunlight falling across a forest"><div class="place-info"><span class="tag">WATERFALL & NATURE</span><h3>Diyaluma Falls</h3><p>See one of the island’s most spectacular waterfalls and mountain views.</p><a class="learn" href="#contact" data-place="Diyaluma Falls">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="nature" data-name="ravana falls ella waterfall"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80" alt="Mountain cliffs and forest scenery"><div class="place-info"><span class="tag">SCENIC STOP</span><h3>Ravana Falls</h3><p>A popular waterfall stop surrounded by the green hills near Ella.</p><a class="learn" href="#contact" data-place="Ravana Falls">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="wildlife nature" data-name="yala national park leopard elephants safari"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=700&q=80" alt="Elephants in a natural landscape"><div class="place-info"><span class="tag">WILDLIFE</span><h3>Yala National Park</h3><p>Experience a guided safari and look for elephants and native wildlife.</p><a class="learn" href="#contact" data-place="Yala National Park">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="beach" data-name="mirissa beach southern coast sunset"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=700&q=80" alt="Turquoise ocean waves at a beach"><div class="place-info"><span class="tag">BEACH ESCAPE</span><h3>Mirissa</h3><p>Golden sand, coastal cafés and beautiful Indian Ocean sunsets.</p><a class="learn" href="#contact" data-place="Mirissa">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="heritage" data-name="anuradhapura ancient city stupas history"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=85" alt="Historic Buddhist architecture"><div class="place-info"><span class="tag">ANCIENT KINGDOM</span><h3>Anuradhapura</h3><p>Discover ancient stupas, sacred sites and centuries of island history.</p><a class="learn" href="#contact" data-place="Anuradhapura">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="heritage" data-name="polonnaruwa ancient city ruins archaeology"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=700&q=80" alt="Ancient stone architecture in a tropical setting"><div class="place-info"><span class="tag">HISTORIC RUINS</span><h3>Polonnaruwa</h3><p>Explore medieval royal ruins, stone carvings and archaeological wonders.</p><a class="learn" href="#contact" data-place="Polonnaruwa">Plan a visit →</a></div></article>
+      <article class="place-card" data-category="nature hill" data-name="horton plains worlds end nature"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=700&q=80" alt="Misty mountain wilderness"><div class="place-info"><span class="tag">HIGHLAND ADVENTURE</span><h3>Horton Plains</h3><p>Enjoy highland trails, cool air and the dramatic World’s End viewpoint.</p><a class="learn" href="#contact" data-place="Horton Plains">Plan a visit →</a></div></article>
+    </div>
+    <div class="empty" id="emptyState">No destinations match your search. Try another name or category.</div>
+  </div>
+</section>
+<section class="trip-band" id="local-trips">
+  <div class="section trip-grid">
+    <img class="trip-photo" loading="lazy" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1100&q=85" alt="Scenic road through beautiful green countryside">
+    <div><div class="kicker">Your trip, your way</div><h2 style="font:clamp(31px,4vw,43px) Georgia,serif;margin:9px 0 14px">Little trips. Big memories.</h2><p style="color:var(--muted);line-height:1.8">Planning a family day out, a weekend escape or a longer island tour? Tell us what you love and start planning a route that suits your time and interests.</p>
+      <ul class="trip-list">
+        <li><b>🏛️ Heritage & ancient cities</b><span>Sigiriya, Anuradhapura, Polonnaruwa and cultural landmarks.</span></li>
+        <li><b>🌿 Waterfalls & hill-country escapes</b><span>Ella, Nuwara Eliya, scenic viewpoints and refreshing nature stops.</span></li>
+        <li><b>🌊 Beaches & southern coast</b><span>Galle, Mirissa and relaxing coastal journeys.</span></li>
+        <li><b>🐘 Wildlife & nature</b><span>Plan a nature-focused visit with appropriate local guidance.</span></li>
+      </ul><a class="btn" href="#contact">Plan your trip →</a>
+    </div>
+  </div>
+</section>
+
+<section class="services-wrap" id="services">
+  <div class="section">
+    <div class="kicker">Travel your way</div>
+    <h2 style="font:clamp(31px,4vw,43px) Georgia,serif;margin:9px 0 12px">Choose your service</h2>
+    <p style="color:var(--muted);line-height:1.8;max-width:760px">Whether you need a convenient ride across town or want to explore the island, choose the service that fits your journey.</p>
+    <div class="service-tabs">
+      <article class="service-panel" id="taxi-service">
+        <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=85" alt="Modern passenger car on a road, representing taxi service">
+        <div class="service-copy">
+          <span class="tag">01 · TAXI SERVICE</span>
+          <h3>Reliable rides for everyday journeys</h3>
+          <p>Use the taxi service for local transfers, town-to-town rides, airport transfers and comfortable point-to-point travel. Contact the hotline to confirm availability, vehicle type and pricing before your trip.</p>
+          <a class="btn" href="tel:+94777249967">Call for a taxi →</a>
+          <h4 style="margin:23px 0 0">Vehicle options</h4>
+          <div class="vehicle-grid">
+            <div class="vehicle"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=85" alt="Sedan car"><div><h4>Car / Sedan</h4><p>Suitable for solo travellers, couples and small groups with luggage.</p></div></div>
+            <div class="vehicle"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1744287690772-31533716f5ef?auto=format&fit=crop&w=900&q=85" alt="SUV vehicle"><div><h4>SUV</h4><p>Extra cabin space for families and journeys with more bags.</p></div></div>
+            <div class="vehicle"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1743007783919-6a0b67db7dfa?auto=format&fit=crop&w=900&q=85" alt="Passenger van for family and group transport"><div><h4>Van / Minibus</h4><p>For larger families or groups; confirm seating and luggage capacity.</p></div></div>
+          </div>
+        </div>
+      </article>
+      <article class="service-panel" id="tour-service">
+        <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1100&q=85" alt="Scenic mountain landscape for an island tour">
+        <div class="service-copy">
+          <span class="tag">02 · TRAVEL & TOURS</span>
+          <h3>Discover more of Sri Lanka</h3>
+          <p>Plan day trips, weekend escapes or longer journeys to ancient cities, waterfalls, tea country, beaches and wildlife areas. Ask about a route that suits your interests and available time.</p>
+          <a class="btn" href="#contact">Plan a tour →</a>
+          <h4 style="margin:23px 0 0">Vehicles for tourism</h4>
+          <div class="vehicle-grid">
+            <div class="vehicle"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=85" alt="Comfortable touring car"><div><h4>Touring Car</h4><p>For couples or small groups exploring several destinations.</p></div></div>
+            <div class="vehicle"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1744287690772-31533716f5ef?auto=format&fit=crop&w=900&q=85" alt="SUV for scenic travel"><div><h4>Touring SUV</h4><p>A spacious option for families and countryside itineraries.</p></div></div>
+            <div class="vehicle"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1743007783919-6a0b67db7dfa?auto=format&fit=crop&w=900&q=85" alt="Passenger van for group tours"><div><h4>Tourist Van</h4><p>For group tours; confirm group size and comfort requirements.</p></div></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section class="wedding-section" id="wedding-hire">
+  <div class="section wedding-hero">
+    <div class="wedding-photo-wrap">
+      <img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Wedding_car.jpg?width=1200" alt="Wedding car hire and bridal transport">
+      <div class="wedding-stamp">A beautiful beginning to your special day</div>
+    </div>
+    <div class="wedding-content">
+      <div class="kicker">Wedding hire • Bridal transport • Guest travel</div>
+      <h2>Make your wedding journey memorable.</h2>
+      <p>Planning a wedding in Sri Lanka? Enquire about transport for the couple, family members and guests. Share your date, locations and preferred vehicle so the team can discuss suitable options with you.</p>
+      <div class="wedding-perks">
+        <div class="wedding-perk"><strong>♡ Bridal car enquiries</strong>Ask about a suitable car for the couple’s arrival and departure.</div>
+        <div class="wedding-perk"><strong>✿ Decoration requests</strong>Discuss flowers, ribbons and other wedding-day decoration preferences.</div>
+        <div class="wedding-perk"><strong>♧ Guest transport</strong>Ask about vans or buses for family and wedding guests.</div>
+        <div class="wedding-perk"><strong>◷ Event schedule</strong>Share ceremony times, pickup points and multiple stops.</div>
+      </div>
+      <div class="wedding-actions">
+        <a class="btn" href="#booking" data-service="Wedding car hire">Enquire about wedding hire →</a>
+        <a class="wedding-call" href="tel:+94777249967">☎ 077 724 9967</a>
+      </div>
+      <p style="font-size:12px;margin-top:15px">Vehicle availability, decoration options and prices must be confirmed directly. Photos are illustrative and may not represent the actual fleet.</p>
+    </div>
+  </div>
+</section>
+
+<section class="airport-section" id="airport-transfers">
+  <div class="section airport-grid">
+    <div class="airport-copy">
+      <div class="kicker">Airport hire • Pickups • Drop-offs</div>
+      <h2>A smoother start and finish to your Sri Lankan journey.</h2>
+      <p>Arrange an airport pickup or drop-off with Sri Lanka Trails. Share your flight number, arrival time, passenger count and destination so the team can discuss the right transport for your journey.</p>
+      <div class="airport-points">
+        <div class="airport-point"><strong>✈ Airport to hotel</strong>Request a pickup for your hotel, home or holiday stay.</div>
+        <div class="airport-point"><strong>🧳 Hotel to airport</strong>Plan a drop-off around your scheduled departure.</div>
+        <div class="airport-point"><strong>👨‍👩‍👧 Family and groups</strong>Ask about luggage space and suitable passenger vehicles.</div>
+        <div class="airport-point"><strong>🕒 Flight details</strong>Include your flight number and landing time in your enquiry.</div>
+      </div>
+      <a class="btn" href="#booking" data-service="Airport transfer">Arrange airport transport →</a>
+      <p class="form-note">Pickup availability, vehicle type, waiting arrangements and price must be confirmed directly. This website does not track live flights or automatically confirm bookings.</p>
+    </div>
+    <img class="airport-photo" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=85" alt="Passenger aircraft at an airport, representing airport transfer service">
+  </div>
+</section>
+
+<section class="extra-services" id="special-services">
+  <div class="section">
+    <div class="kicker">More ways to travel</div>
+    <h2 style="font:clamp(31px,4vw,43px) Georgia,serif;margin:9px 0 12px">Services for every occasion</h2>
+    <p style="color:var(--muted);line-height:1.8;max-width:760px">From airport arrivals to wedding celebrations and business travel, find a transport option for your plans. Availability, vehicle models and prices should be confirmed directly.</p>
+    <div class="extra-service-grid">
+      <article class="extra-service-card">
+        <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=900&q=85" alt="Passenger aircraft at an airport, for airport transfer service">
+        <div class="extra-copy"><span class="tag">AIRPORT TRANSFERS</span><h3>Start your trip smoothly</h3><p>Arrange a pickup or drop-off for your flight. Share your flight details and landing time when enquiring.</p><ul><li>Airport to hotel</li><li>Hotel to airport</li><li>Family and group transfers</li></ul><a class="btn" href="#booking">Request transfer →</a></div>
+      </article>
+      <article class="extra-service-card">
+        <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=85" alt="Wedding celebration and bridal transport planning">
+        <div class="extra-copy"><span class="tag">WEDDING HIRE</span><h3>Arrive in style</h3><p>Ask about wedding-day transport, decorated cars, bridal transfers and guest shuttles for your celebration.</p><ul><li>Bridal car enquiries</li><li>Flower decoration requests</li><li>Guest transport and shuttle trips</li></ul><a class="btn" href="#booking" data-service="Wedding car hire">Enquire about wedding hire →</a></div>
+      </article>
+      <article class="extra-service-card">
+        <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1743007783919-6a0b67db7dfa?auto=format&fit=crop&w=900&q=85" alt="Sri Lankan bus for group and corporate transport">
+        <div class="extra-copy"><span class="tag">GROUP & BUSINESS TRAVEL</span><h3>Travel together</h3><p>Ask about group transport for company outings, conferences, family events and multi-stop journeys.</p><ul><li>Corporate and event travel</li><li>Group day trips</li><li>Multi-stop itineraries</li></ul><a class="btn" href="#booking" data-service="Group and corporate travel">Plan group transport →</a></div>
+      </article>
+    </div>
+    <div class="booking-panel" id="booking">
+      <div><div class="kicker">Enquire about a journey</div><h3>Tell us what you need</h3><p>Share a few details to prepare a WhatsApp enquiry. The website does not calculate fares or confirm availability automatically; your dad can discuss those details with the customer.</p><a class="phone-big" style="font-size:25px" href="tel:+94777249967">☎ 077 724 9967</a></div>
+      <form class="booking-form" id="bookingForm">
+        <input name="name" id="bookName" placeholder="Your name" required>
+        <input name="phone" id="bookPhone" placeholder="Your contact number (optional)">
+        <select name="service" id="bookService" required><option value="">Choose a service</option><option>Taxi / local ride</option><option>Airport transfer</option><option>Island tour</option><option>Wedding car hire</option><option>Group / corporate travel</option><option>Other trip</option></select>
+        <input name="date" id="bookDate" type="date" aria-label="Preferred date">
+        <input name="pickup" id="bookPickup" placeholder="Pickup location" required>
+        <input name="destination" id="bookDestination" placeholder="Destination" required>
+        <select name="vehicle" id="bookVehicle"><option value="">Preferred vehicle (optional)</option><option>Car / sedan</option><option>SUV</option><option>Passenger van</option><option>Minibus / coach</option><option>Wedding car</option><option>Need advice</option></select>
+        <input name="passengers" id="bookPassengers" type="number" min="1" max="50" placeholder="Number of passengers">
+        <textarea name="details" id="bookDetails" placeholder="Extra details (flight number, wedding timing, stops, luggage…)"></textarea>
+        <button class="btn" type="submit">Prepare WhatsApp enquiry →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="reviews-section" id="reviews">
+  <div class="section">
+    <div class="kicker">Customer experiences</div>
+    <div class="reviews-layout">
+      <div class="review-intro">
+        <h2>Travelled with us? Tell us how it went.</h2>
+        <p>Your honest feedback helps the team improve its service and helps future travellers make informed choices.</p>
+        <p><strong>⭐ Share a genuine rating</strong></p>
+        <p class="review-note">We have not displayed made-up testimonials or ratings. With your permission, the business can review your feedback and ask whether it may be published on this website.</p>
+        <a class="btn" href="tel:+94777249967">☎ Call the team</a>
+      </div>
+      <form class="review-form" id="reviewForm">
+        <h3 style="font:27px Georgia,serif;margin:0">Rate your experience</h3>
+        <label for="reviewName">Your name (optional)</label>
+        <input id="reviewName" name="reviewName" maxlength="80" placeholder="Your name or initials">
+        <span><strong>Your rating</strong></span>
+        <div class="rating-picker" role="radiogroup" aria-label="Choose a rating from one to five stars">
+          <button type="button" class="rating-star" data-rating="1" aria-label="1 star" aria-pressed="false">★</button>
+          <button type="button" class="rating-star" data-rating="2" aria-label="2 stars" aria-pressed="false">★</button>
+          <button type="button" class="rating-star" data-rating="3" aria-label="3 stars" aria-pressed="false">★</button>
+          <button type="button" class="rating-star" data-rating="4" aria-label="4 stars" aria-pressed="false">★</button>
+          <button type="button" class="rating-star" data-rating="5" aria-label="5 stars" aria-pressed="false">★</button>
+        </div>
+        <input type="hidden" id="reviewRating" name="reviewRating" value="">
+        <label for="reviewText">Your experience</label>
+        <textarea id="reviewText" name="reviewText" minlength="8" maxlength="1200" required placeholder="Tell us about your trip, driver, communication or journey…"></textarea>
+        <label style="display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:1.5"><input id="reviewPermission" type="checkbox" style="width:auto;margin-top:3px"> I give permission for the team to contact me about using my review publicly. This does not automatically publish it.</label>
+        <button class="btn" type="submit">Send feedback by WhatsApp →</button>
+        <p class="review-note">Your feedback opens WhatsApp as a message to the business. It is not automatically saved to or displayed publicly on this website.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section about-grid">
+    <div><div class="kicker">Ayubowan — welcome</div><h2>Discover the heart of Sri Lanka.</h2><p>Sri Lanka Trails is a travel website concept for sharing the island’s heritage, landscapes and local-trip ideas. Use it to explore destinations and contact us to discuss your preferred journey.</p><p>From ancient stone cities to misty hills and waterfalls, every part of Sri Lanka has a story waiting to be discovered.</p><div class="stat-row"><div class="stat"><strong>8</strong><span>UNESCO World Heritage Sites in Sri Lanka</span></div><div class="stat"><strong>1 island</strong><span>Countless places to explore</span></div></div></div>
+    <img class="about-photo" loading="lazy" src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80" alt="Historic South Asian temple architecture">
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div><div class="eyebrow">Let’s plan your next trip</div><h2>Your Sri Lankan adventure starts here.</h2><p>Call the hotline to discuss destinations, local trips and travel plans. You can also prepare a trip enquiry using the form.</p><a class="phone-big" href="tel:+94777249967">☎ 077 724 9967</a><br><a class="btn" href="tel:+94777249967">Call the hotline →</a></div>
+    <form class="contact-form" id="tripForm">
+      <h3>Plan a trip enquiry</h3>
+      <input id="visitorName" name="visitorName" placeholder="Your name" required>
+      <select id="tripType" name="tripType" required><option value="">What kind of trip?</option><option>Ancient cities & heritage</option><option>Waterfalls & hill country</option><option>Beaches & coastal trip</option><option>Wildlife & nature</option><option>Custom local trip</option></select>
+      <input id="destination" name="destination" placeholder="Destination you have in mind (optional)">
+      <textarea id="tripNotes" name="tripNotes" placeholder="Preferred date, number of people or other details"></textarea>
+      <button class="btn" type="submit">Prepare enquiry message →</button>
+      <div class="form-note">This demo prepares a message for you to send through WhatsApp. It does not automatically book a trip or collect/store your details.</div>
+    </form>
+  </div>
+</section>
+</main>
+
+<div class="modal-backdrop" id="destinationModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="destination-modal">
+    <button class="modal-close" id="modalClose" aria-label="Close destination details">×</button>
+    <img id="modalImage" src="" alt="">
+    <div class="modal-body"><span class="tag" id="modalTag">DESTINATION</span><h2 id="modalTitle">Destination</h2><p id="modalDescription"></p><a class="btn" id="modalPlan" href="#contact">Ask about this trip →</a></div>
+  </div>
+</div>
+
+<footer><div class="footer-inner"><div class="footer-brand">⛰ Sri Lanka <span>Trails</span></div><div>Explore • Discover • Experience</div><div><a href="tel:+94777249967">Hotline: 077 724 9967</a></div><div>© <span id="year"></span> Sri Lanka Trails</div></div></footer>
+<button class="backtop" id="backTop" aria-label="Back to top" title="Back to top">↑</button>
+<script>
+(() => {
+  'use strict';
+  const $ = (selector, root=document) => root.querySelector(selector);
+  document.addEventListener('click', event => { const link = event.target.closest('a[data-service]'); if (!link) return; const service = $('#bookService'); if (service) { service.value = link.dataset.service; } });
+  const $$ = (selector, root=document) => [...root.querySelectorAll(selector)];
+  const WHATSAPP = '94777249967';
+  const menuBtn = $('#menuBtn'), navlinks = $('#navlinks');
+  const toast = document.createElement('div'); toast.className='toast'; toast.setAttribute('role','status'); toast.setAttribute('aria-live','polite'); document.body.appendChild(toast);
+  let toastTimer;
+  function notify(message){toast.textContent=message;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),3200)}
+  function openWhatsApp(message){const url='https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(message);const opened=window.open(url,'_blank','noopener,noreferrer');if(!opened){window.location.href=url;}}
+  if(menuBtn && navlinks){menuBtn.addEventListener('click',()=>{const open=navlinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'✕ Close':'☰ Menu';});$$('a',navlinks).forEach(a=>a.addEventListener('click',()=>{navlinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰ Menu';}));}
+
+  // Search and category filters share one state so they work together.
+  let activeFilter='all'; const cards=$$('.place-card'), searchInput=$('#searchInput'), emptyState=$('#emptyState');
+  function applyFilters(){if(!searchInput)return;const term=searchInput.value.trim().toLowerCase();let shown=0;cards.forEach(card=>{const cats=(card.dataset.category||'').split(/\s+/);const categoryOK=activeFilter==='all'||cats.includes(activeFilter);const text=((card.dataset.name||'')+' '+card.innerText).toLowerCase();const visible=categoryOK&&text.includes(term);card.hidden=!visible;if(visible)shown++;});if(emptyState)emptyState.style.display=shown?'none':'block';}
+  $$('.filter').forEach(btn=>btn.addEventListener('click',()=>{$$('.filter').forEach(b=>{b.classList.toggle('active',b===btn);b.setAttribute('aria-pressed',String(b===btn));});activeFilter=btn.dataset.filter||'all';applyFilters();}));
+  if(searchInput)searchInput.addEventListener('input',applyFilters);
+
+  const details={
+    'Sigiriya':'A UNESCO World Heritage Site famous for its dramatic rock column, ancient palace remains, water gardens and frescoes. Wear comfortable shoes and allow time for the climb.',
+    'Kandy':'A cultural city in the central hills, home to the Temple of the Sacred Tooth Relic, Kandy Lake and traditional arts. Dress respectfully when visiting religious sites.',
+    'Galle Fort':'A historic fortified town with colonial-era streets, ramparts, boutique shops and ocean views. It is especially lovely for a relaxed walk near sunset.',
+    'Ella':'A popular hill-country escape known for green mountains, scenic walks, tea landscapes and the Nine Arch Bridge. Weather can change quickly in the hills.',
+    'Nuwara Eliya':'A cool-climate town surrounded by tea estates, gardens and highland scenery. It is a good base for relaxed countryside sightseeing.',
+    'Bambarakanda Falls':'Sri Lanka’s tallest waterfall, set in a scenic mountain landscape. Access and trail conditions can vary; follow local signs and avoid unsafe wet rocks.',
+    'Diyaluma Falls':'A spectacular waterfall in the hill country, admired for its cascades and wide views. Visit with local guidance and stay away from dangerous edges or strong currents.',
+    'Ravana Falls':'A well-known waterfall near Ella and a popular scenic stop on a hill-country trip. Use designated viewing areas and take care near the road.',
+    'Yala National Park':'A protected wildlife area known for elephants, birds and a wide range of animals. Visit with an authorized guide and follow park rules.',
+    'Mirissa':'A southern coastal destination for sandy beaches, ocean sunsets and seasonal marine-life excursions. Sea conditions and wildlife sightings vary by season.',
+    'Anuradhapura':'An ancient capital with monumental stupas, sacred Buddhist sites and archaeological remains spanning many centuries. Plan time to visit the large heritage area respectfully.',
+    'Polonnaruwa':'A historic medieval capital featuring palace ruins, stone sculptures and ancient reservoirs. The archaeological sites are spread out, so comfortable footwear and transport help.',
+    'Horton Plains':'A protected highland plateau with grasslands, cloud forest and the World’s End viewpoint. Start early, bring layers and check local weather before setting out.'
+  };
+  const modal=$('#destinationModal');
+  function openDestination(card){const title=$('h3',card)?.textContent.trim()||'Destination';const img=$('img',card);if($('#modalTitle'))$('#modalTitle').textContent=title;if($('#modalImage')&&img){$('#modalImage').src=img.currentSrc||img.src;$('#modalImage').alt=img.alt||title;}if($('#modalTag'))$('#modalTag').textContent=$('.tag',card)?.textContent||'DESTINATION';if($('#modalDescription'))$('#modalDescription').textContent=details[title]||$('p',card)?.textContent||'';const dest=$('#destination');if(dest)dest.value=title;const modalPlan=$('#modalPlan');if(modalPlan)modalPlan.dataset.destination=title;if(modal){modal.classList.add('show');document.body.style.overflow='hidden';$('#modalClose')?.focus();}}
+  function closeDestination(){if(modal){modal.classList.remove('show');document.body.style.overflow='';}}
+  cards.forEach(card=>{card.tabIndex=0;card.setAttribute('role','button');card.setAttribute('aria-label','View details for '+($('h3',card)?.textContent||'destination'));card.addEventListener('click',e=>{if(e.target.closest('a'))e.preventDefault();openDestination(card);});card.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&!e.target.closest('a')){e.preventDefault();openDestination(card);}});});
+  $('#modalClose')?.addEventListener('click',closeDestination);modal?.addEventListener('click',e=>{if(e.target===modal)closeDestination();});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDestination();});
+  $('#modalPlan')?.addEventListener('click',e=>{const title=e.currentTarget.dataset.destination;closeDestination();const dest=$('#destination');if(dest)dest.value=title||'';setTimeout(()=>$('#contact')?.scrollIntoView({behavior:'smooth',block:'start'}),40);});
+
+  // Clicking a vehicle card selects it in the enquiry form.
+  $$('.vehicle').forEach(vehicle=>{vehicle.tabIndex=0;vehicle.setAttribute('role','button');vehicle.setAttribute('aria-label','Select '+($('h4',vehicle)?.textContent||'vehicle'));const selectVehicle=()=>{const title=$('h4',vehicle)?.textContent||'';const select=$('#bookVehicle');if(select){const map=[['sedan','Car / sedan'],['touring car','Car / sedan'],['suv','SUV'],['van','Passenger van'],['minibus','Minibus / coach'],['coach','Minibus / coach']];const key=title.toLowerCase();const option=map.find(([word])=>key.includes(word));if(option){select.value=option[1];$$('.vehicle').forEach(v=>v.classList.toggle('selected',v===vehicle));notify(title+' selected for your enquiry.');$('#booking')?.scrollIntoView({behavior:'smooth',block:'center'});}else notify('Please choose your preferred vehicle in the enquiry form.');}};vehicle.addEventListener('click',selectVehicle);vehicle.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectVehicle();}});});
+  $$('[data-service]').forEach(link=>link.addEventListener('click',()=>{const select=$('#bookService');if(select){const service=link.dataset.service||'';const option=[...select.options].find(o=>o.text.toLowerCase()===service.toLowerCase())||[...select.options].find(o=>o.text.toLowerCase().includes(service.toLowerCase().split(' ')[0]));if(option)select.value=option.value||option.text;}}));
+
+  const bookingForm=$('#bookingForm');bookingForm?.addEventListener('submit',e=>{e.preventDefault();if(!bookingForm.reportValidity())return;const val=id=>($('#'+id)?.value||'').trim()||'Not specified';const message=['Hello Sri Lanka Trails! I would like to enquire about transport.','Name: '+val('bookName'),'Contact: '+val('bookPhone'),'Service: '+val('bookService'),'Date: '+val('bookDate'),'Pickup: '+val('bookPickup'),'Destination: '+val('bookDestination'),'Vehicle: '+val('bookVehicle'),'Passengers: '+val('bookPassengers'),'Extra details: '+val('bookDetails')].join('\n');openWhatsApp(message);notify('Your enquiry is ready to send in WhatsApp.');});
+  // Airport and review forms: the review is sent to the business for permission-based moderation, not published automatically.
+  let selectedRating=0;
+  const ratingInput=$('#reviewRating');
+  const ratingStars=$$('.rating-star');
+  function paintRating(){ratingStars.forEach(star=>{const chosen=Number(star.dataset.rating)<=selectedRating;star.classList.toggle('active',chosen);star.setAttribute('aria-pressed',String(Number(star.dataset.rating)===selectedRating));});}
+  ratingStars.forEach(star=>star.addEventListener('click',()=>{selectedRating=Number(star.dataset.rating);if(ratingInput)ratingInput.value=String(selectedRating);paintRating();}));
+  $('#reviewForm')?.addEventListener('submit',e=>{e.preventDefault();const form=e.currentTarget;if(!form.reportValidity())return;if(!selectedRating){notify('Please choose a star rating first.');return;}const val=id=>($('#'+id)?.value||'').trim()||'Not provided';const permission=$('#reviewPermission')?.checked?'Yes, contact me about permission to publish this review':'No permission to publish requested';const message=['Hello Sri Lanka Trails — customer feedback','Name: '+val('reviewName'),'Rating: '+selectedRating+'/5 stars','Experience: '+val('reviewText'),'Publication permission: '+permission].join('\n');openWhatsApp(message);notify('Your feedback is ready to send in WhatsApp.');});
+
+  const tripForm=$('#tripForm');tripForm?.addEventListener('submit',e=>{e.preventDefault();if(!tripForm.reportValidity())return;const val=id=>($('#'+id)?.value||'').trim()||'Not specified';const message=['Hello Sri Lanka Trails! I would like to enquire about a trip.','Name: '+val('visitorName'),'Trip type: '+val('tripType'),'Destination: '+val('destination'),'Details: '+val('tripNotes')].join('\n');openWhatsApp(message);notify('Your trip enquiry is ready to send in WhatsApp.');});
+  $('#year')&&($('#year').textContent=new Date().getFullYear());$('#backTop')?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+
+  // Wikimedia Commons image loader: searches for real, topic-matched photos and keeps a visible source/licence link.
+  // It requires an internet connection. If Commons is unavailable, the existing image remains as a fallback.
+  const commonsCache = new Map();
+  const cleanText = value => (value || '').replace(/[\u{1F300}-\u{1FAFF}]/gu, ' ').replace(/[^a-zA-Z0-9\s-]/g, ' ').replace(/\s+/g, ' ').trim();
+  function imageSearchTerms(img){
+    const vehicle=img.closest('.vehicle');
+    const place=img.closest('.place-card');
+    const extra=img.closest('.extra-service-card');
+    const panel=img.closest('.service-panel');
+    const title=vehicle?.querySelector('h4')?.textContent || place?.querySelector('h3')?.textContent || extra?.querySelector('h3')?.textContent || panel?.querySelector('.service-copy h3')?.textContent || '';
+    const alt=img.alt || '';
+    let query=(title+' '+alt).toLowerCase();
+    const mappings=[
+      [/sigiriya|rock fortress/,'Sigiriya rock fortress Sri Lanka'],
+      [/kandy|tooth relic|temple architecture/,'Temple of the Tooth Kandy Sri Lanka'],
+      [/galle fort|coastal fort/,'Galle Fort lighthouse Sri Lanka'],
+      [/nine arch|ella|green mountain|highland|scenic road/,'Ella Nine Arch Bridge Sri Lanka'],
+      [/nuwara eliya|lush green highlands/,'Nuwara Eliya tea plantation Sri Lanka'],
+      [/bambarakanda/,'Bambarakanda Falls Sri Lanka'],
+      [/diyaluma/,'Diyaluma Falls Sri Lanka'],
+      [/ravana falls/,'Ravana Falls Ella Sri Lanka'],
+      [/yala|elephants|wildlife/,'Elephants Yala National Park Sri Lanka'],
+      [/mirissa|beach|ocean waves/,'Mirissa beach Sri Lanka'],
+      [/anuradhapura|buddhist architecture|historic south asian temple/,'Ruwanwelisaya Anuradhapura Sri Lanka'],
+      [/polonnaruwa|ancient stone|historic ruins/,'Polonnaruwa ancient ruins Sri Lanka'],
+      [/horton plains|misty mountain/,'Horton Plains Sri Lanka landscape'],
+      [/sedan|taxi service|touring car|passenger car|comfortable touring/,'sedan passenger car Wikimedia Commons'],
+      [/suv/,'SUV passenger vehicle Wikimedia Commons'],
+      [/van|minibus|group transport|tourist van/,'passenger van minibus Wikimedia Commons'],
+      [/coach|bus/,'tourist coach bus Wikimedia Commons'],
+      [/airport|aircraft/,'Bandaranaike International Airport Colombo Sri Lanka airport terminal aircraft'],
+      [/wedding|bridal/,'wedding car decorated vehicle Wikimedia Commons'],
+      [/island tour|mountain landscape/,'Sri Lanka mountain landscape tea plantations'],
+      [/trip-photo|countryside/,'Sri Lanka green countryside landscape'],
+      [/historic coastal|fort/,'Galle Fort Sri Lanka'],
+      [/waterfall|falls/,'waterfall Sri Lanka'],
+      [/temple/,'Sri Lanka Buddhist temple'],
+      [/historic|ancient/,'Sri Lanka ancient ruins'],
+      [/forest|nature|landscape/,'Sri Lanka forest landscape']
+    ];
+    for(const [pattern,term] of mappings){if(pattern.test(query))return term;}
+    return cleanText(title+' '+alt+' Sri Lanka tourism photo') || 'Sri Lanka tourism';
+  }
+  async function findCommonsPhoto(query){
+    if(commonsCache.has(query))return commonsCache.get(query);
+    const task=(async()=>{
+      const api='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+encodeURIComponent('filetype:bitmap '+query)+'&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1200&format=json&origin=*';
+      const response=await fetch(api,{mode:'cors'});
+      if(!response.ok)throw new Error('Wikimedia search unavailable');
+      const data=await response.json();
+      const pages=Object.values(data.query?.pages||{});
+      const valid=pages.find(page=>{const info=page.imageinfo?.[0];const mime=info?.mime||'';return info?.thumburl && mime.startsWith('image/') && !/svg|gif/i.test(mime);});
+      if(!valid)throw new Error('No Commons photo found');
+      const info=valid.imageinfo[0], meta=info.extmetadata||{};
+      const strip=value=>String(value||'').replace(/<[^>]*>/g,' ').replace(/&nbsp;/g,' ').replace(/&#160;/g,' ').trim();
+      return {url:info.thumburl,source:info.descriptionurl||('https://commons.wikimedia.org/wiki/'+encodeURIComponent(valid.title.replaceAll(' ','_'))),title:valid.title.replace(/^File:/,''),artist:strip(meta.Artist?.value)||'Wikimedia Commons contributor',license:strip(meta.LicenseShortName?.value)||'See source licence'};
+    })();
+    commonsCache.set(query,task);
+    try{return await task;}catch(error){commonsCache.delete(query);throw error;}
+  }
+  function addPhotoCredit(img,photo){
+    let credit=img.nextElementSibling;
+    if(!credit || !credit.classList.contains('wiki-credit')){
+      credit=document.createElement('a');credit.className='wiki-credit';credit.target='_blank';credit.rel='noopener noreferrer';credit.textContent='Photo source & licence';img.insertAdjacentElement('afterend',credit);
+    }
+    credit.href=photo.source;
+    credit.title='Photo: '+photo.title+' | Author: '+photo.artist+' | Licence: '+photo.license;
+    credit.textContent='Photo: '+photo.artist+' · '+photo.license+' ↗';
+    img.title=credit.title;
+  }
+  const wikiStyle=document.createElement('style');
+  wikiStyle.textContent='.wiki-credit{display:block;padding:5px 9px;font-size:9px;line-height:1.35;color:#536571;background:#f4f7f8;text-decoration:underline;overflow-wrap:anywhere}.vehicle .wiki-credit{font-size:8px;padding:4px 7px}.wiki-credit:hover{color:#075b75;background:#eaf2f4}';
+  document.head.appendChild(wikiStyle);
+  async function loadCommonsPhoto(img){
+    if(img.id==='modalImage')return;
+    const query=imageSearchTerms(img);
+    try{
+      const photo=await findCommonsPhoto(query);
+      img.src=photo.url;
+      img.dataset.commonsLoaded='true';
+      addPhotoCredit(img,photo);
+    }catch(error){
+      // Preserve the existing image if Wikimedia is temporarily unreachable.
+      img.classList.add('image-fallback');
+      img.title=(img.alt||'Photo')+' — Wikimedia Commons image could not be loaded; check internet connection.';
+    }
+  }
+  const photoQueue=$$('img').filter(img=>img.id!=='modalImage');
+  let photoIndex=0;
+  async function photoWorker(){while(photoIndex<photoQueue.length){const img=photoQueue[photoIndex++];await loadCommonsPhoto(img);}}
+  Promise.all([photoWorker(),photoWorker(),photoWorker()]);
+  // If any image fails after selection, keep the layout clean and report the problem in its title.
+  $$('img').forEach(img=>{img.addEventListener('error',()=>{if(img.dataset.errorHandled)return;img.dataset.errorHandled='true';img.classList.add('image-fallback');img.title=(img.title||img.alt||'Photo')+' — image failed to load. Try refreshing with internet access.';});});
+  // Gentle reveal animations only when supported; all content stays visible if observers are unavailable.
+  if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('revealed');observer.unobserve(entry.target);}}),{threshold:.08});$$('.section,.features,.service-panel,.extra-service-card,.booking-panel,.about-grid,.contact-inner,.wedding-content,.wedding-photo-wrap').forEach(el=>{el.classList.add('reveal');observer.observe(el);});}
+  applyFilters();
+})();
+</script>
+</body>
+</html>
