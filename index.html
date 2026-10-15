@@ -43,13 +43,22 @@ footer{background:#0c2d27;color:white;padding:48px 0 22px}.footer-top{display:fl
 @media(max-width:900px){.vehicle-grid{grid-template-columns:repeat(2,1fr)}.special-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.vehicle-grid{grid-template-columns:1fr 1fr;gap:11px}.vehicle-photo{height:145px}.vehicle-info{padding:13px}.vehicle-info h3{font-size:19px}.vehicle-info p{font-size:11px;min-height:62px}.vehicle-meta{font-size:10px}.vehicle-info .btn{font-size:11px;padding:10px}.special-card{grid-template-columns:1fr}.special-card img{height:190px;min-height:190px}.special-copy{padding:18px}}
 
+
+/* Guest reviews, safety and travel moments */
+.safety-section{background:#123d35;color:#fff}.safety-section .section-head p{color:#c5d5cb}.safety-section .eyebrow{color:#d9ee9a}.safety-section .eyebrow:before{background:#d9ee9a}
+.safety-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.safety-card{padding:23px;border:1px solid #ffffff25;border-radius:18px;background:#ffffff08}.safety-icon{font-size:25px;margin-bottom:14px}.safety-card h3{font:600 21px "Playfair Display",serif;margin:0 0 9px}.safety-card p{color:#c5d5cb;font-size:12px;line-height:1.75;margin:0}
+.moments-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.moment-card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}.moment-card img{width:100%;height:225px;object-fit:cover;display:block}.moment-card div{padding:16px 18px}.moment-card h3{font:600 20px "Playfair Display",serif;margin:0 0 7px}.moment-card p{font-size:12px;line-height:1.65;color:var(--muted);margin:0}
+.reviews-section{background:#eef1e7}.reviews-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:22px;align-items:stretch}.review-intro,.review-form{background:#fff;border:1px solid var(--line);border-radius:21px;padding:27px}.review-intro h3,.review-form h3{font:600 25px "Playfair Display",serif;margin:0 0 10px}.review-intro p,.review-form>p{font-size:13px;line-height:1.75;color:var(--muted)}.rating-stars{font-size:28px;letter-spacing:4px;color:#d29b2b;margin:12px 0}.review-honesty{padding:13px 14px;border-radius:12px;background:#f4f5ee;color:#52645b;font-size:11px;line-height:1.65;margin-top:17px}.star-picker{display:flex;gap:5px;margin:8px 0 17px}.star-picker button{border:0;background:transparent;color:#c6cbbf;font-size:29px;cursor:pointer;padding:0 2px}.star-picker button.selected{color:#d29b2b}.review-form label{display:block;font-size:11px;font-weight:700;margin:12px 0 7px}.review-form input,.review-form textarea{width:100%;border:1px solid #dfe5dc;background:#fbfcf8;border-radius:11px;padding:12px;font:12px "DM Sans",sans-serif}.review-form textarea{min-height:85px;resize:vertical}.review-form .btn{margin-top:15px;width:100%}.review-note{font-size:10px!important;margin-top:10px}
+@media(max-width:900px){.safety-grid{grid-template-columns:repeat(2,1fr)}.moments-grid{grid-template-columns:repeat(2,1fr)}.reviews-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.safety-grid,.moments-grid{grid-template-columns:1fr}.moment-card img{height:210px}.safety-card{padding:20px}.review-intro,.review-form{padding:21px}}
+
 </style>
 </head>
 <body>
 <header>
   <div class="wrap nav">
     <a class="brand" href="#home" aria-label="Sri Lanka Trails home"><span class="brand-mark">✳</span><span>Sri Lanka Trails</span></a>
-    <nav class="navlinks" id="navlinks"><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#vehicles">Vehicles</a><a href="#special-trips">Special trips</a><a href="#plan">Plan a trip</a><a href="#contact">Contact</a></nav>
+    <nav class="navlinks" id="navlinks"><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#vehicles">Vehicles</a><a href="#special-trips">Special trips</a><a href="#safety">Travel safety</a><a href="#reviews">Reviews</a><a href="#plan">Plan a trip</a><a href="#contact">Contact</a></nav>
     <a class="nav-cta" href="#plan">Plan your journey ↗</a>
     <button class="menu" id="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
   </div>
@@ -161,6 +170,43 @@ footer{background:#0c2d27;color:white;padding:48px 0 22px}.footer-top{display:fl
 </div>
 </section>
 
+
+<section id="safety" class="safety-section">
+  <div class="wrap">
+    <div class="section-head"><div><span class="eyebrow">Explore with care</span><h2>Safer journeys make better memories.</h2></div><p>A few simple checks can help you enjoy Sri Lanka with more confidence. Always confirm your transport arrangements and follow local guidance.</p></div>
+    <div class="safety-grid">
+      <article class="safety-card"><div class="safety-icon">🚗</div><h3>Seat belts & safe driving</h3><p>Wear a seat belt where fitted, ask the driver to follow road rules, and never pressure a driver to speed. Take breaks on longer journeys.</p></article>
+      <article class="safety-card"><div class="safety-icon">🛵</div><h3>Scooter & motorbike care</h3><p>Wear a properly fastened helmet, check brakes and lights, carry the required licence and insurance, and ride only if you are confident and legally permitted.</p></article>
+      <article class="safety-card"><div class="safety-icon">📍</div><h3>Share your route</h3><p>Keep your accommodation informed of major travel plans, save your destination details offline, and agree on pickup points before setting off.</p></article>
+      <article class="safety-card"><div class="safety-icon">💳</div><h3>Confirm costs first</h3><p>Agree the fare, inclusions, waiting time and payment method before travel. Keep a written confirmation of important arrangements.</p></article>
+      <article class="safety-card"><div class="safety-icon">🌊</div><h3>Respect local advice</h3><p>Check weather and sea conditions, follow wildlife and park instructions, dress appropriately at religious sites, and avoid isolated areas after dark.</p></article>
+      <article class="safety-card"><div class="safety-icon">🆘</div><h3>Know how to get help</h3><p>Save local emergency contacts and your accommodation number. If there is immediate danger, contact the appropriate local emergency service.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="moments">
+  <div class="wrap">
+    <div class="section-head"><div><span class="eyebrow">The joy is in the journey</span><h2>Good company. Open roads. Happy memories.</h2></div><p>From relaxed car rides to scenic scooter adventures, travel at a pace that feels right for you.</p></div>
+    <div class="moments-grid">
+      <article class="moment-card"><img loading="lazy" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=85" alt="Friends enjoying a happy day together while travelling"><div><h3>Travel together</h3><p>Share the views, laughter and little discoveries with the people you love.</p></div></article>
+      <article class="moment-card"><img loading="lazy" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=85" alt="Motorbike ready for a scenic road adventure"><div><h3>Take the scenic route</h3><p>For scooter and motorbike trips, choose suitable roads, wear a helmet and ride safely.</p></div></article>
+      <article class="moment-card"><img loading="lazy" src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=1000&q=85" alt="Traveller enjoying an outdoor destination and travel experience"><div><h3>Make room for wonder</h3><p>Discover new landscapes, meet local people and enjoy the journey as much as the destination.</p></div></article>
+    </div>
+    <p class="photo-credit">These are illustrative travel photos, not verified photos of Sri Lanka Trails customers or vehicles.</p>
+  </div>
+</section>
+
+<section id="reviews" class="reviews-section">
+  <div class="wrap">
+    <div class="section-head"><div><span class="eyebrow">Guest feedback</span><h2>Reviews & ratings.</h2></div><p>Your honest feedback helps future travellers know what to expect and helps us keep improving.</p></div>
+    <div class="reviews-grid">
+      <div class="review-intro"><h3>Have you travelled with us?</h3><div class="rating-stars" aria-label="Five star rating selector">★★★★★</div><p>We want to feature genuine guest experiences. No customer reviews or average rating are displayed here yet, so we won't publish made-up testimonials or an unverified score.</p><div class="review-honesty"><strong>Real people. Real experiences.</strong><br>Send your rating and feedback using the form. It will open WhatsApp so you can review your message before sending.</div></div>
+      <form class="review-form" id="reviewForm"><h3>Share your experience</h3><p>Tell us how your journey went.</p><label>Choose your rating</label><div class="star-picker" role="group" aria-label="Choose a star rating"><button type="button" data-rating="1" aria-label="1 star">★</button><button type="button" data-rating="2" aria-label="2 stars">★</button><button type="button" data-rating="3" aria-label="3 stars">★</button><button type="button" data-rating="4" aria-label="4 stars">★</button><button type="button" data-rating="5" aria-label="5 stars">★</button></div><input type="hidden" id="reviewRating" value="5"><label for="reviewName">Your name (or initials)</label><input id="reviewName" placeholder="Name or initials" required><label for="reviewText">Your feedback</label><textarea id="reviewText" placeholder="What did you enjoy? What could be better?" required></textarea><button class="btn" type="submit">Send feedback on WhatsApp ↗</button><p class="review-note">Your feedback is not automatically published on this website. It opens a WhatsApp message for you to review and send.</p></form>
+    </div>
+  </div>
+</section>
+
 <section id="plan">
 <div class="wrap planner">
   <div class="planner-copy"><span class="eyebrow">Let's get you going</span><h2>Your next story starts here.</h2><p>Tell us where you want to go, when you are travelling and what kind of journey you have in mind. Sri Lanka Trails can follow up to discuss availability, route ideas and a quote.</p><p>Every trip is different. Share the basics and we’ll take it from there.</p><div class="contact-line"><span class="round">☎</span><div><small>Call or WhatsApp</small><strong>077 724 9967</strong></div></div><div class="contact-line"><span class="round">↗</span><div><small>Website</small><strong>sandulravindu5-bit.github.io/sri-lanka-trails</strong></div></div></div>
@@ -185,7 +231,7 @@ footer{background:#0c2d27;color:white;padding:48px 0 22px}.footer-top{display:fl
 <div class="wrap">
   <div class="footer-top">
     <div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark">✳</span><span>Sri Lanka Trails</span></a><p>A fresh way to explore the island — from ancient landmarks and misty mountains to the warm Indian Ocean coast.</p></div>
-    <div class="footer-links"><div><strong>Explore</strong><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#vehicles">Vehicles</a><a href="#special-trips">Special trips</a><a href="#plan">Plan a trip</a></div><div><strong>Get in touch</strong><a href="https://wa.me/94777249967" target="_blank" rel="noopener">WhatsApp us</a><a href="tel:+94777249967">Call 077 724 9967</a><a href="https://sandulravindu5-bit.github.io/sri-lanka-trails/" target="_blank" rel="noopener">Website</a></div></div>
+    <div class="footer-links"><div><strong>Explore</strong><a href="#destinations">Destinations</a><a href="#experiences">Experiences</a><a href="#vehicles">Vehicles</a><a href="#special-trips">Special trips</a><a href="#safety">Travel safety</a><a href="#reviews">Reviews & ratings</a><a href="#plan">Plan a trip</a></div><div><strong>Get in touch</strong><a href="https://wa.me/94777249967" target="_blank" rel="noopener">WhatsApp us</a><a href="tel:+94777249967">Call 077 724 9967</a><a href="https://sandulravindu5-bit.github.io/sri-lanka-trails/" target="_blank" rel="noopener">Website</a></div></div>
   </div>
   <div class="credit-note">Photo sources: Wikimedia Commons. Each destination image links to its source page where available; check the original file page for the photographer and licence before reusing images elsewhere.</div>
   <div class="footer-bottom"><span>© <span id="year"></span> Sri Lanka Trails. All rights reserved.</span><span>Made for curious travellers, with island spirit ✳</span></div>
